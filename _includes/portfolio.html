@@ -1,104 +1,124 @@
-<!-- Portfolio Grid Section -->
-<section class="no-padding" id="portfolio">
-  <div class="container-fluid">
-    <div class="row no-gutter">
-      <div class="col-lg-4 col-sm-6">
-        <a href="https://www.memeflyai.com/" class="portfolio-box">
+<section id="portfolio" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Projects</h2>
+        <h3 class="section-subheading text-muted">
+          Data Engineering, Data Science, Machine Learning and Deep Learning
+          projects.
+        </h3>
+        <p class="text-muted">
+          Feel free to check out projects below where I deployed scalable models
+          using <strong>Fast API</strong> on
+          <strong>AWS Elasticbeanstalk</strong> 💨, trained and deployed to
+          <strong>AWS Sagemaker, DevOps CI/CD</strong> 🔄 to automate,
+          <strong>creating End-to-End pipelines that are reproducible</strong>
+          using <strong>DVC</strong>, using
+          <strong>Serverless architecture</strong> to reduce cost apps, and
+          <strong>Spark</strong> for Big Data analysis.
+        </p>
+        <hr />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-flask fa-3x"></i>
+            </div>
+          </div>
           <img
             src="img/portfolio/memefly_thumbnail.png"
             class="img-responsive"
             alt=""
           />
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                AWS | Deep Learning | NLP | DevOps
-              </div>
-              <div class="project-name">
-                Memefly - An novel AI based meme generator
-              </div>
+        </a>
+        <div class="portfolio-caption">
+          <h4>Memefly</h4>
+          <p class="text-muted">
+            A <strong>Novel Meme generating app </strong> that uses Deep
+            Learning NLP to create hilarious dank memes.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-flask fa-3x"></i>
             </div>
           </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
           <img
             src="img/portfolio/spotifier_thumbnail.png"
             class="img-responsive"
             alt=""
           />
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                AWS | Machine Learning | Data Science | DevOps
-              </div>
-              <div class="project-name">
-                Spotifier
-              </div>
-            </div>
-          </div>
         </a>
+        <div class="portfolio-caption">
+          <h4>Spotifier</h4>
+          <p class="text-muted">
+            A <strong> Song recommender app</strong> 🎧, that uses Spotify Audio
+            Features such as - acousticness 🔊, danceability 🕺, tempo 🎚️,
+            speechiness 🗣️, and several more to find songs nearest to each
+            other.
+          </p>
+        </div>
       </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="img/portfolio/3.jpg" class="img-responsive" alt="" />
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="#portfolioModal" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-flask fa-3x"></i>
             </div>
           </div>
+          <img
+            src="img/portfolio/salty_hn_thumbnail.png"
+            class="img-responsive"
+            id="portfolio-thumbnail"
+            alt=""
+          />
         </a>
+        <div class="portfolio-caption">
+          <h4>Salty Hacker News Comments</h4>
+          <p class="text-muted"></p>
+        </div>
       </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="img/portfolio/4.jpg" class="img-responsive" alt="" />
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-flask fa-3x"></i>
             </div>
           </div>
+          <img
+            src="img/portfolio/aviano_db_thumbnail.png"
+            class="img-responsive"
+            alt=""
+          />
         </a>
+        <div class="portfolio-caption">
+          <h4>Aviano Database</h4>
+          <p class="text-muted">
+            A <strong> Online Car Rental Database </strong> , that can be used
+            as toy database for learning Database Normalization, ERD Design, and
+            SQL.
+          </p>
+        </div>
       </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="img/portfolio/5.jpg" class="img-responsive" alt="" />
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-flask fa-3x"></i>
             </div>
           </div>
+          <img src="" class="img-responsive" alt="" />
         </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="img/portfolio/6.jpg" class="img-responsive" alt="" />
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
+        <div class="portfolio-caption">
+          <h4>TwitOff</h4>
+          <p class="text-muted"></p>
+        </div>
       </div>
     </div>
   </div>
