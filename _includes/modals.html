@@ -1,12 +1,6 @@
 <!-- Modal 1 - Memelfy -->
-<div
-  class="portfolio-modal modal fade"
-  id="portfolioModal1"
-  tabindex="-1"
-  role="dialog"
-  aria-hidden="true"
-  style="display: none;"
->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true"
+  style="display: none;">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -16,18 +10,15 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-med-10 col-sm-12">
+          <div class="col">
             <div class="modal-body">
               <!-- Project Details Go Here -->
               <h2>Memefly</h2>
               <p class="item-intro text-muted">
                 Deep Learning App that generates Dank Memes
               </p>
-              <div
-                class="youtube-player"
-                data-id="vCk7QEtE3rY"
-                style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-              ></div>
+              <div class="youtube-player center-block" data-id="vCk7QEtE3rY"
+                style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
               <hr />
               <p>
                 For millenniums, artists and writers have been able to generate
@@ -36,35 +27,24 @@
                 classic Chinese paintings from 1000 A.D. to the popular memes of
                 the 2010s.
               </p>
-              <img
-                src="img/portfolio/memefly_cap_hist.png"
-                alt="Displays Image Captioning History"
-                class="img-responsive img-thumbnail"
-                style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-              />
+              <img src="img/portfolio/memefly_cap_hist.png" alt="Displays Image Captioning History"
+                class="img-responsive img-thumbnail center-block"
+                style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" />
               <p>
                 For Memefly, we attempted to generate memes from image inputs.
                 We trained a GRU network par-injected with image embedding
                 extracted using pre-trained InceptionV3 and sentence embedding
                 using methods outlined in
-                <a href="https://arxiv.org/abs/1411.4555" target="_blank"
-                  >Show and Tell: A Neural Image Caption Generator [Vinyals
-                  ‘14]</a
-                >,
-                <a href="https://arxiv.org/abs/1703.09137" target="_blank"
-                  >Where to put the Image in an Image Caption Generator [Tanti
-                  ‘17]</a
-                >, and
-                <a href="" target="_blank"
-                  >Dank Learning: Generating Memes Using Deep Neural
-                  Networks[Peirson ‘18]</a
-                >. We also implemented beam-search as suggested by
-                <a
-                  href="https://www.youtube.com/watch?v=RLWuzLLSIgw"
-                  target="_blank"
-                >
-                  Professor Andrew Ng</a
-                >. We scrapped from various online resources a small dataset of
+                <a href="https://arxiv.org/abs/1411.4555" target="_blank">Show and Tell: A Neural Image Caption
+                  Generator [Vinyals
+                  ‘14]</a>,
+                <a href="https://arxiv.org/abs/1703.09137" target="_blank">Where to put the Image in an Image Caption
+                  Generator [Tanti
+                  ‘17]</a>, and
+                <a href="" target="_blank">Dank Learning: Generating Memes Using Deep Neural
+                  Networks[Peirson ‘18]</a>. We also implemented beam-search as suggested by
+                <a href="https://www.youtube.com/watch?v=RLWuzLLSIgw" target="_blank">
+                  Professor Andrew Ng</a>. We scrapped from various online resources a small dataset of
                 around 108 memes and 20,000 descriptions for our training data.
                 We implemented our network using Tensorflow 2.0, and used
                 offline learning to generate captions and store them in Cloud
@@ -74,24 +54,15 @@
                 👇 Check out the app and code below. 👇
               </p>
               <p>
-                <button
-                  class="btn btn-secondary btn-responsive"
-                  onclick=" window.open('https://github.com/Lambda-School-Labs/memefly-ds','_blank')"
-                >
+                <button class="btn btn-secondary btn-responsive"
+                  onclick=" window.open('https://github.com/Lambda-School-Labs/memefly-ds','_blank')">
                   <i class="fa fa-github"></i> View Github
                 </button>
-
-                <button
-                  type="button"
-                  class="btn btn-primary btn-responsive"
-                  data-dismiss="modal"
-                >
+                <button type="button" class="btn btn-primary btn-responsive" data-dismiss="modal">
                   <i class="fa fa-times"></i> Close Project
                 </button>
-                <button
-                  class="btn btn-info btn-responsive"
-                  onclick=" window.open('https://www.memeflyai.com/','_blank')"
-                >
+                <button class="btn btn-info btn-responsive"
+                  onclick=" window.open('https://www.memeflyai.com/','_blank')">
                   <i class="fa fa-cog"></i> View App
                 </button>
               </p>
@@ -103,14 +74,8 @@
   </div>
 </div>
 <!-- Modal 2 Spotifier-->
-<div
-  class="portfolio-modal modal fade"
-  id="portfolioModal2"
-  tabindex="-1"
-  role="dialog"
-  aria-hidden="true"
-  style="display: none;"
->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true"
+  style="display: none;">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -127,43 +92,31 @@
               <p class="item-intro text-muted">
                 Song Recommender App
               </p>
-              <div
-                class="youtube-player"
-                data-id="d3GrBrgw7kQ"
-                style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-              ></div>
+              <div class="youtube-player" data-id="d3GrBrgw7kQ"
+                style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
               <hr />
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                <strong>Why Spotifier?</strong><br>
+                <p>One of my passion is discovering new music, whether its new genres or artists, more often
+                  recommendations come from friends or through sub-reddits or blogs. What was missing was an app that
+                  recommends tracks based on their similarity not similar artist based on genres.
+                </p>
+                <strong>How does it work?</strong><br>
+                <img src="" alt="">
+                <p>
+
+                </p>
               </p>
               <p>
-                <button
-                  class="btn btn-secondary btn-responsive"
-                  onclick=" window.open('https://github.com/Build-Week-Spotify-Song-Suggester/Data-science','_blank')"
-                >
+                <button class="btn btn-secondary btn-responsive"
+                  onclick=" window.open('https://github.com/Build-Week-Spotify-Song-Suggester/Data-science','_blank')">
                   <i class="fa fa-github"></i> View Github
                 </button>
-
-                <button
-                  type="button"
-                  class="btn btn-primary btn-responsive"
-                  data-dismiss="modal"
-                >
+                <button type="button" class="btn btn-primary btn-responsive" data-dismiss="modal">
                   <i class="fa fa-times"></i> Close Project
                 </button>
-                <button
-                  class="btn btn-info btn-responsive"
-                  onclick=" window.open('https://spotifier.netlify.com/','_blank')"
-                >
+                <button class="btn btn-info btn-responsive"
+                  onclick=" window.open('https://spotifier.netlify.com/','_blank')">
                   <i class="fa fa-cog"></i> View App
                 </button>
               </p>
@@ -175,14 +128,8 @@
   </div>
 </div>
 <!-- Modal 3 Salty HN -->
-<div
-  class="portfolio-modal modal fade"
-  id="portfolioModal3"
-  tabindex="-1"
-  role="dialog"
-  aria-hidden="true"
-  style="display: none;"
->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true"
+  style="display: none;">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -211,17 +158,11 @@
                 Lorem Ipsum.
               </p>
               <p>
-                <button
-                  class="btn btn-secondary btn-responsive"
-                  onclick=" window.open('https://github.com/Build-Week-Hacker-News-Salty-Trolls/DS/tree/harsh-desai','_blank')"
-                >
+                <button class="btn btn-secondary btn-responsive"
+                  onclick=" window.open('https://github.com/Build-Week-Hacker-News-Salty-Trolls/DS/tree/harsh-desai','_blank')">
                   <i class="fa fa-github"></i> View Github
                 </button>
-                <button
-                  type="button"
-                  class="btn btn-primary btn-responsive"
-                  data-dismiss="modal"
-                >
+                <button type="button" class="btn btn-primary btn-responsive" data-dismiss="modal">
                   <i class="fa fa-times"></i> Close Project
                 </button>
               </p>
@@ -233,14 +174,8 @@
   </div>
 </div>
 <!-- Modal 4 TwitOff -->
-<div
-  class="portfolio-modal modal fade"
-  id="portfolioModal4"
-  tabindex="-1"
-  role="dialog"
-  aria-hidden="true"
-  style="display: none;"
->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true"
+  style="display: none;">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -250,52 +185,38 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-med-10 col-sm-12">
+          <div class="col">
             <div class="modal-body">
               <!-- Project Details Go Here -->
               <h2>TwitOff</h2>
               <p class="item-intro text-muted">NLP App</p>
-              <div class="container" style="padding-left:10%;">
-                <img
-                  class="img-responsive"
-                  src="img/portfolio/"
-                  alt=""
-                  style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                />
-              </div>
+              <img class="img-responsive center-block" src="img/portfolio/twitoff_demo.gif"
+                alt="showcase of twitoff as gif"
+                style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" />
               <hr />
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
+                <img class="img-responsive center-block" src="img/portfolio/twitoff_arch.png"
+                  alt="architecture of how twitoff works" /> </p>
               <p>
-                <button
-                  class="btn btn-secondary btn-responsive"
-                  onclick=" window.open('https://github.com/hurshd0/TwitOff','_blank')"
-                >
-                  <i class="fa fa-github"></i> View Github
-                </button>
-                <button
-                  type="button"
-                  class="btn btn-primary btn-responsive"
-                  data-dismiss="modal"
-                >
-                  <i class="fa fa-times"></i> Close Project
-                </button>
-                <button
-                  class="btn btn-info btn-responsive"
-                  onclick=" window.open('https://twitoff-says.herokuapp.com/','_blank')"
-                >
-                  <i class="fa fa-cog"></i> View App
-                </button>
+                <strong> How does it work? </strong><br>
+                When a new user gets added to the database, tweets are obtained from Twitter API, the <a
+                  href="https://en.wikipedia.org/wiki/Word_embedding">word
+                  embeddings</a> of their tweets
+                are fetched via <a href="https://www.basilica.ai/">Basilica</a>. When the comparison is run, a
+                logistic
+                regression determines
+                the most likely author.
+              </p>
+              <button class="btn btn-secondary btn-responsive"
+                onclick=" window.open('https://github.com/hurshd0/TwitOff','_blank')">
+                <i class="fa fa-github"></i> View Github
+              </button>
+              <button type="button" class="btn btn-primary btn-responsive" data-dismiss="modal">
+                <i class="fa fa-times"></i> Close Project
+              </button>
+              <button class="btn btn-info btn-responsive" onclick=" window.open('https://twitoff.com/','_blank')">
+                <i class="fa fa-cog"></i> View App
+              </button>
               </p>
             </div>
           </div>
