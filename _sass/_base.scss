@@ -112,17 +112,17 @@ aside {
     background-color: transparent;
     border-color: rgba(white, 0.3);
     .navbar-header .navbar-brand {
-      color: rgba(white, 0.7);
+      color: rgba(#02414e, 0.7);
       &:hover,
       &:focus {
-        color: white;
+        color: #01b2c6;
       }
     }
     .nav > li > a,
     .nav > li > a:focus {
-      color: rgba(white, 0.7);
+      color: rgba(#02414e, 0.7);
       &:hover {
-        color: white;
+        color: #01b2c6;
       }
     }
     &.affix {
@@ -157,14 +157,14 @@ header {
   background-position: center;
   background-image: url("../img/header.jpg");
   text-align: center;
-  color: white;
+  color: rgba(#02414e, 0.7);
   .header-content {
     position: relative;
     text-align: center;
     padding: 100px 15px 100px;
     width: 100%;
     .header-content-inner {
-      h1 {
+      h2 {
         font-weight: 700;
         text-transform: uppercase;
         margin-top: 0;
