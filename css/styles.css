@@ -136,6 +136,11 @@
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
 }
+
+.portfolio-modal .modal-content p.list-item {
+  text-align: left;
+}
+
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -146,6 +151,17 @@
   margin-bottom: 30px;
   margin-top: 0;
 }
+
+.portfolio-modal .modal-content h4 {
+  font-weight: 700;
+
+}
+
+.portfolio-modal .modal-content ol {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }

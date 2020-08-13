@@ -53,6 +53,11 @@
               <p>
                 👇 Check out the app and code below. 👇
               </p>
+              <div class="alert alert-warning">
+                ⚠️<strong>NOTE:</strong> Backend processed are run on FREE Heroky Dynos so they go sleep after 30
+                minutes
+                of inacitivty, please 🙏 wait a few minutes ⏲ before interacting with them.⚠️
+              </div>
               <p>
                 <button class="btn btn-secondary btn-responsive"
                   onclick=" window.open('https://gitlab.com/memefly/memefly-datascience/memefly-ml','_blank')">
@@ -94,18 +99,56 @@
               <div class="youtube-player" data-id="d3GrBrgw7kQ"
                 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
               <hr />
-              <p>
-                <strong>Why Spotifier?</strong><br>
-              <p>One of my passion is discovering new music, whether its new genres or artists, more often
+              <h4>
+                Why Spotifier?
+              </h4>
+              <p class="list-item">
+                One of my passion is discovering new music, whether its new genres or artists, more often
                 recommendations come from friends or through sub-reddits or blogs. What was missing was an app that
                 recommends tracks based on their similarity not similar artist based on genres.
               </p>
-              <strong>How does it work?</strong><br>
-              <img src="" alt="">
+              <h4>How do you approach this problem?</h4>
+              <p class="list-item">
+              <ol>
+                <li>
+                  First, given the problem where we want similar tracks instead of similar artists which points to
+                  looking
+                  at audio features of each individual tracks so we decided to use readily available Kaggle's <a
+                    href="https://www.kaggle.com/tomigelo/spotify-audio-features" target="_blank">Spotify Audio
+                    Features
+                    Dataset</a>.
+                </li>
+                <li>
+                  Second, once we have dataset we want to perform ETL task and load finalized data to a AWS RDS
+                  PostgresSQL database.
+                </li>
+                <li>
+                  Third, we want to run our choosen Machine Learning algorithm, since we don't have user dataset or
+                  their preference we can't create Collaborative Filtering models, which leaves us with Unsupervised
+                  Nearest Neighbors, Clustering or Neural Networks. Starting with Unsupervised Nearest Neighbors
+                  techniques like - kNN, Ball Tree, KDTree, in this case would be a great start since the goal is to
+                  create fastest prototype.
+                </li>
+              </oL>
+              </p>
+              <p> <img
+                  src="https://raw.githubusercontent.com/Spotifier/Data-science/master/assets/spotifier_ml_process.png"
+                  class="img-responsive" alt="ML process demonstrated on flowchart" /></p>
+              <h4>How does it work?</h4>
+              <p class="list-item">
+                When you search for a song it queries the database finds the track you are looking for along with its
+                Top 10 recommendations.
+                <img src="https://github.com/Spotifier/Data-science/blob/master/assets/spotifier_arch.png"
+                  class="img-responsive" alt="ML process demonstrated on flowchart" />
+              </p>
               <p>
-
+                👇 Check out the app and code below. 👇
               </p>
-              </p>
+              <div class="alert alert-warning">
+                ⚠️<strong>NOTE:</strong> Backend processed are run on FREE Heroky Dynos so they go sleep after 30
+                minutes
+                of inacitivty, please 🙏 wait a few minutes ⏲ before interacting with them.⚠️
+              </div>
               <p>
                 <button class="btn btn-secondary btn-responsive"
                   onclick=" window.open('https://github.com/Spotifier/Data-science','_blank')">
@@ -196,8 +239,10 @@
               <p>
                 <img class="img-responsive center-block" src="img/portfolio/twitoff_arch.png"
                   alt="architecture of how twitoff works" /> </p>
+              <h4>
+                How does it work?
+              </h4>
               <p>
-                <strong> How does it work? </strong><br>
                 When a new user gets added to the database, tweets are obtained from Twitter API, the <a
                   href="https://en.wikipedia.org/wiki/Word_embedding">word
                   embeddings</a> of their tweets
@@ -206,6 +251,14 @@
                 regression determines
                 the most likely author.
               </p>
+              <p>
+                👇 Check out the app and code below. 👇
+              </p>
+              <div class="alert alert-warning">
+                ⚠️<strong>NOTE:</strong> Backend processed are run on FREE Heroky Dynos so they go sleep after 30
+                minutes
+                of inacitivty, please 🙏 wait a few minutes ⏲ before interacting with them.⚠️
+              </div>
               <button class="btn btn-secondary btn-responsive"
                 onclick=" window.open('https://github.com/hurshd0/TwitOff','_blank')">
                 <i class="fa fa-github"></i> View Github
