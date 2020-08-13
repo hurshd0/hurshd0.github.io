@@ -162,6 +162,11 @@
   margin-top: 0;
 }
 
+.portfolio-modal .modal-content ul {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
