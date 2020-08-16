@@ -1,5 +1,7 @@
 ## 🚀 Explorers path finding site 👨‍🚀 🚀
 
+### Theme based on Start bootstrap Jekyll https://github.com/volny/creative-theme-jekyll
+
 ### How to install on Ubuntu or WSL if you are on windows?
 
 Step 1. Get required dependencies for jekyll `sudo apt-get install ruby-full build-essential zlib1g-dev`
