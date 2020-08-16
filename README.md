@@ -1,6 +1,8 @@
 ## 🚀 Explorers path finding site 👨‍🚀 🚀
 
-### Theme based on Start bootstrap Jekyll https://github.com/volny/creative-theme-jekyll
+### Portfolio theme based on https://github.com/volny/creative-theme-jekyll
+
+### For blog theme use https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll
 
 ### How to install on Ubuntu or WSL if you are on windows?
 
