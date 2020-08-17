@@ -7,6 +7,7 @@
 ### How to install on Ubuntu or WSL if you are on windows?
 
 Step 1. Get required dependencies for jekyll `sudo apt-get install ruby-full build-essential zlib1g-dev`
+
 Step 2. Add paths for running Ruby Gems on user account 
 
 NOTE: If you are using zsh than replace `.bashrc` to `.zshrc`
